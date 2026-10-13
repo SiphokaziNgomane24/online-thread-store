@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html">urban Threads</a>
+        <a href="shop.html">Shop</a>
+        <a href="cart.html">Cart</a>
+        <span id="user-email"></span>
+        <button id="logout-button">Logout</button>
+    </nav>
+
+    <main>
+        <h1>Shop</h1>
+        <select id="category-fitler">
+            <option value="">All</option>
+            <option value="t-shirts">T-Shirts</option>
+            <option value="hoodies">Hoodies</option>
+            <option value="accessories">Accessories</option>
+            <option value="sneakers">sneakers</option>
+        </select>
+        <section id="product-list"></section>
+            <!-- Products will be dynamically loaded here -->   
+    </main>         
+    <script type="module" src="../JS/shop.js"></script>
+    <script type="module" src="../JS/Auth.js"></script>
+</body>
+</html>
