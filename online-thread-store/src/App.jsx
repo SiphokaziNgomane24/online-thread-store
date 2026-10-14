@@ -5,9 +5,12 @@ import viteLogo from './assets/vite.svg'
 import './App.css'
 
 function App() {
-  <div>
-    <h1>hello</h1>
-  </div>
+  return (
+    <div>
+      <h1>Urban Threads</h1>
+        <p> Your Style, Your personality</p>
+    </div>
+  )
 }
 
 export default App
